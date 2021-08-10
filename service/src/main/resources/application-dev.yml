@@ -29,7 +29,7 @@ spring:
 server:
   port: 5388
   servlet:
-    context-path: /smart-iot
+    context-path: /connection-service
 simple:
   domainName: koudaibook.com
   common:
