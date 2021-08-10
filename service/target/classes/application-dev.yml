@@ -1,0 +1,42 @@
+spring:
+  datasource:
+    url: jdbc:mysql://47.101.223.234:3306/test?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 1qazxsw2
+  jpa:
+    show-sql: true
+    database: MYSQL
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+  redis:
+    host: mq.zhangyongqiao.com
+    password: 12345678
+    port: 6379
+  mqtt:
+    server:
+      username: admin
+      password: public
+      url:  tcp://mq.koudaibook.com:1883
+    client:
+      publishId: "publish_id"
+      subscribeId: "subscribe_id"
+    default:
+      topic: "ci/simple/center/server/#"
+      completionTimeout: 3000
+
+server:
+  port: 5388
+  servlet:
+    context-path: /smart-iot
+simple:
+  domainName: koudaibook.com
+  common:
+    sentry-dsn: https://80bbf4ae778b525f9fe72e2813cd5246@sentry.io/1271087
+qiniu:
+  accessKey: JMVsA4svqk_TUAjq9jOKy0fLVxBaJpiaAAhcn0gr
+  secretKey: 39xrdVIpTa65jjPkAB9RCjzdDKN_VY4KdcPkhNjD
+  bucket: windwithlife
+  domainName: http://images.koudaibook.com
+

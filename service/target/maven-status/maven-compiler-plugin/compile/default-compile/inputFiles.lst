@@ -1,0 +1,16 @@
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/common/config/SwaggerConfig.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/common/props/AppProps.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/common/image/MultimediaUtils.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/bz/service/WebSocketService.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/bz/service/ConnectionService.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/bz/dto/NotifyClientMessage.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/SimpleApplication.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/common/redis/RedisSubscriber.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/bz/dto/IDRequest.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/bz/dto/IDResponse.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/bz/service/MultimediaService.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/common/config/WebSocketConfig.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/common/config/AppConfig.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/bz/dao/ContextQuery.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/bz/controller/MultiMediaController.java
+/Users/ctrip/code/framework/ConnectionService/service/src/main/java/com/simple/bz/controller/MessageController.java
