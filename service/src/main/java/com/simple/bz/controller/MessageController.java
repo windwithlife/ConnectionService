@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/mqtt")
+@RequestMapping("/message")
 @Validated
 @Api(tags = "消息相关的服务集")
 public class MessageController {
