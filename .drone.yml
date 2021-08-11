@@ -10,10 +10,9 @@ steps:
       - name : mvncache
         path : /root/.m2
     commands:
-      - echo 'test echo'
-      - echo ${APPLICATION_NAME}
+      - echo 'start to build and package.....'
       - cd  ./service
-      - mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B
+      - mvn clean package -DskipTests=true -Dmaven.javadoc.skip=true -B
 
   - name: 构建镜像&PUSH镜像到Hub（PROD）.
     image: plugins/docker
@@ -69,9 +68,7 @@ steps:
       - name : mvncache
         path : /root/.m2
     commands:
-      - echo 'test echo'
-      - echo ${APPLICATION_NAME}
-      - echo $${APPLICATION_NAME}
+      - echo 'start to build and package.....'
       - cd  ./service
       - mvn clean package -DskipTests=true -Dmaven.javadoc.skip=true -B
 
