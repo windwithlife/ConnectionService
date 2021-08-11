@@ -34,7 +34,6 @@ public class MessageController {
         return GenericResponse.build().addKey$Value("result",request);
     }
 
-
     @GetMapping(path = "/testmq")
     GenericResponse testMQ(@RequestParam(value = "msg") String request){
         System.out.println("received  params is" +  request);
